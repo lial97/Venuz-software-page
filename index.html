@@ -138,7 +138,7 @@ header.top{position:sticky;top:0;z-index:30;background:rgba(250,249,247,.86);bac
 .paso p{margin:0;color:var(--ink2);font-size:.95rem}
 
 /* Redes */
-.redes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:44px}
+.redes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:44px}
 .red{display:flex;flex-direction:column;gap:6px;padding:26px;border-radius:24px;text-decoration:none;border:1px solid transparent;transition:transform .3s,box-shadow .3s}
 .red:hover{transform:translateY(-6px);box-shadow:0 20px 36px rgba(31,29,38,.1)}
 .red .ic{width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.8);display:grid;place-items:center;margin-bottom:26px}
@@ -209,7 +209,7 @@ section{padding:64px 0}
 <div>
 <span class="eyebrow in"><i></i>Desarrollo de software · Colombia</span>
 <h1 class="in d1">Software simple para <span>negocios reales.</span></h1>
-<p class="sub in d2">Diseñamos y construimos aplicaciones móviles, plataformas web y servicios a la medida. Pocas funciones, bien hechas, que la gente sí usa.</p>
+<p class="sub in d2">Diseñamos y construimos aplicaciones móviles, plataformas web y servicios a la medida de tu negocio. Soluciones tecnológicas confiables, pensadas para crecer contigo.</p>
 <div class="acciones in d3">
 <a class="btn" href="#productos">Ver nuestros productos</a>
 <a class="btn btn-ghost" href="#contacto">Contar mi idea</a>
@@ -299,7 +299,7 @@ section{padding:64px 0}
 <div class="rv"><span class="eyebrow"><i></i>Cómo trabajamos</span>
 <h2 class="t">Cuatro pasos, sin enredos.</h2></div>
 <div class="pasos rv">
-<div class="paso"><div class="n">1</div><h3>Entender</h3><p>Escuchamos tu negocio y definimos qué problema resolver primero.</p></div>
+<div class="paso"><div class="n">1</div><h3>Entender</h3><p>Escuchamos tu negocio, desglosamos el problema y proponemos soluciones.</p></div>
 <div class="paso"><div class="n">2</div><h3>Diseñar</h3><p>Un boceto claro que ves y corriges antes de escribir código.</p></div>
 <div class="paso"><div class="n">3</div><h3>Construir</h3><p>Avances cortos que puedes probar; ves el producto funcionando desde temprano.</p></div>
 <div class="paso"><div class="n">4</div><h3>Acompañar</h3><p>Lo ponemos en marcha y seguimos cerca para ajustarlo.</p></div>
@@ -314,20 +314,24 @@ section{padding:64px 0}
 <h2 class="t">Mira cómo construimos.</h2>
 <p class="sub">Código abierto, videos del proceso y novedades de lo que viene.</p></div>
 <div class="redes rv">
-<a class="red" href="https://github.com/venuzsoftware" target="_blank" rel="noopener" style="background:var(--lav)"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E3A4C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></div><b>GitHub</b><span>Código de nuestros proyectos</span><em>@venuzsoftware →</em></a>
+<a class="red" href="https://github.com/Venuz-Software" target="_blank" rel="noopener" style="background:var(--lav)"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E3A4C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5"/></svg></div><b>GitHub</b><span>Código de nuestros proyectos</span><em>@Venuz-Software →</em></a>
 <a class="red" href="https://youtube.com/@venuzsoftware" target="_blank" rel="noopener" style="background:var(--peach)"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E3A4C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M10.5 9.5v5l4-2.5z"/></svg></div><b>YouTube</b><span>El proceso, paso a paso</span><em>@venuzsoftware →</em></a>
 <a class="red" href="https://instagram.com/venuzsoftware" target="_blank" rel="noopener" style="background:var(--mint)"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E3A4C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r=".6"/></svg></div><b>Instagram</b><span>Novedades y detrás de cámaras</span><em>@venuzsoftware →</em></a>
+<!-- LinkedIn: desactivado por ahora. Para activarlo, descomenta la línea y cambia .redes a repeat(4,...) en el CSS.
 <a class="red" href="https://www.linkedin.com/company/venuzsoftware" target="_blank" rel="noopener" style="background:var(--sky)"><div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3E3A4C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a3 3 0 016 0v3"/></svg></div><b>LinkedIn</b><span>Contacto profesional</span><em>Venuz Software →</em></a>
+-->
 </div>
 </div>
 </section>
 
 <!-- SOBRE -->
-<section>
+<section id="nosotros">
 <div class="wrap sobre">
 <div class="rv"><span class="eyebrow"><i></i>Quiénes somos</span>
-<h2 class="t">Un estudio pequeño con estándar alto.</h2>
-<p class="sub">Venuz Software es un estudio de desarrollo en Colombia. Construimos productos propios y a la medida, con cuidado en los detalles y comunicación directa. [Aquí va tu nombre y una frase sobre ti.]</p></div>
+<h2 class="t">Hecho en Medellín, con ganas de crear.</h2>
+<p class="sub">Hola, soy Alex, desarrollador de software. Me apasiona la tecnología, descubrir ideas creativas y asumir nuevos retos.</p>
+<p class="sub" style="margin-top:14px">Venuz Software nace en Medellín, Colombia, del gusto por construir cosas útiles con tecnología. Acompaño a emprendimientos y negocios nuevos a encontrar soluciones digitales que les ayuden a crecer.</p>
+<blockquote style="margin:24px 0 0;padding-left:16px;border-left:3px solid var(--lav2);font-weight:600;font-size:1.05rem;max-width:36rem">"La tecnología es la herramienta de nuestro tiempo. Quien la aprovecha, construye el futuro."</blockquote></div>
 <div class="vals rv">
 <div class="val"><span class="pt" style="background:#9A87E6"></span><div><b>Simple</b><span>Quitamos todo lo que estorba. Lo que queda tiene que ser claro.</span></div></div>
 <div class="val"><span class="pt" style="background:#7FCBA4"></span><div><b>Útil</b><span>Cada función existe porque resuelve algo real.</span></div></div>
